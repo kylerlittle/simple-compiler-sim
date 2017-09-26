@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Compiler.h</itemPath>
+      <itemPath>SIMPLE.h</itemPath>
+      <itemPath>SMLtable.h</itemPath>
+      <itemPath>Simulator.h</itemPath>
+      <itemPath>flagTable.h</itemPath>
+      <itemPath>symbolTable.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>nbproject/MachineCode.txt</itemPath>
+      <itemPath>Output.txt</itemPath>
+      <itemPath>SimpleCode.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Compiler.cpp</itemPath>
+      <itemPath>SIMPLE.cpp</itemPath>
+      <itemPath>SMLtable.cpp</itemPath>
+      <itemPath>Simulator.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="Compiler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SIMPLE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SIMPLE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMLtable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SMLtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCode.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simulator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Simulator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="flagTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/MachineCode.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="symbolTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Compiler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SIMPLE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SIMPLE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMLtable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SMLtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SimpleCode.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simulator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Simulator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="flagTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/MachineCode.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="symbolTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
